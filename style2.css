@@ -1,0 +1,41 @@
+
+
+
+img{
+   
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+    
+  
+}
+
+.obrazek{
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color:green;
+}
+
+ul{
+ background-color:rgb(171, 206, 171);
+ display: flex;
+ justify-content: space-evenly;
+ padding: 1%;
+ text-align: justify;
+}
+a{
+    text-decoration: unset;
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+}

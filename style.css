@@ -1,0 +1,70 @@
+element.style {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+html { 
+    background: url(krajina.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+      
+    width: 100%;
+    height: auto;
+      
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { 
+    img.bg {
+      left: 50%;
+      margin-left: -512px;  
+    }
+  }
+   .mayo {  
+    display: flex; 
+    justify-content: center; 
+    align-items: center;} 
+
+    h2 {
+        color: white;
+      }
+
+    p {
+     color:white;
+    }
+
+    ul{
+      background-color:rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-evenly;
+      padding: 1%;
+      text-align: justify;
+     }
+
+     a{
+         text-decoration: unset;
+         display: flex;
+         color:blue;
+     }
+     
+     ul{
+         list-style-type: none;
+         margin: 0;
+         padding: 1%;
+         
+     }
