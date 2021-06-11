@@ -20,6 +20,7 @@ img{
 h1{
     text-align: center;
     color:green;
+    font-family: monospace;
 }
 
 ul{
@@ -38,4 +39,10 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 1%;
+}
+
+p{
+    text-align: center;
+    color: green;
+    font-family: monospace;
 }
